@@ -1,0 +1,46 @@
+{
+  "name": "streaming-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "bcrypt": "^5.0.1",
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "csrf": "^3.1.0",
+    "dgram": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.8",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nexmo": "^2.9.1",
+    "nodemon": "^2.0.15",
+    "pm2": "^5.2.0",
+    "redis": "^3.0.2",
+    "socket.io": "^3.1.2",
+    "socket.io-client": "^3.1.2",
+    "typescript": "^4.6.4",
+    "utf8": "^3.0.0",
+    "winston": "^3.7.2",
+    "winston-daily-rotate-file": "^4.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlee167/streaming-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlee167/streaming-server/issues"
+  },
+  "homepage": "https://github.com/jlee167/streaming-server#readme",
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
